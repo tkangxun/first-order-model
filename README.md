@@ -1,3 +1,5 @@
+<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>
+
 # First Order Motion Model for Image Animation
 
 This repository contains the source code for the paper [First Order Motion Model for Image Animation](https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) by Aliaksandr Siarohin, [Stéphane Lathuilière](http://stelat.eu), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/). 
@@ -73,7 +75,9 @@ docker run -it --rm --gpus all \
 ```
 
 ### Colab Demo 
-We prepare a special demo for the google-colab, see: ```demo-colab.ipynb```.
+@graphemecluster prepared a gui-demo for the google-colab see: ```demo.ipynb```. To run press ```Open In Colab``` button.
+
+For old demo, see ```old-demo.ipynb```.
 
 ### Face-swap
 It is possible to modify the method to perform face-swap using supervised segmentation masks.
@@ -82,8 +86,6 @@ For both unsupervised and supervised video editing, such as face-swap, please re
 
 
 ### Training
-
-**Note: It is important to use pytorch==1.0.0 for training. Higher versions of pytorch have strange bilinear warping behavior, because of it model diverge.**
 
 To train a model on specific dataset run:
 ```
@@ -137,7 +139,7 @@ that the object in the first frame of the video and in the source image have the
 
 ### Datasets
 
-1) **Bair**. This dataset can be directly [downloaded](https://yadi.sk/d/66vNK0EwJcVkPg).
+1) **Bair**. This dataset can be directly [downloaded](https://yadi.sk/d/Rr-fjn-PdmmqeA).
 
 2) **Mgif**. This dataset can be directly [downloaded](https://yadi.sk/d/5VdqLARizmnj3Q).
 
